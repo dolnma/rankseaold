@@ -67,7 +67,7 @@ if (!$link) {
     <section>
         <div class="controls">
             <button id="smoke">smoke</button>
-            <button id="flash">test</button>
+            <button id="flash">fire</button>
             <button id="fire">test</button>
             <button id="side">test</button>
             <button id="calls">test</button>
