@@ -1,0 +1,463 @@
+$main-color: #2d2d30;
+
+@font-face {
+  font-family: 'gothic';
+  src: url('../fonts/leaguegothic-regular-webfont.eot');
+  src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+  url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+  url('../fonts/leaguegothic-regular-webfont.svg#webfont') format('svg');
+}
+
+.justpattern {
+  background-image: url(http://ivang-design.com/chronos/revolutionslider//images/pattern.png);
+  position: absolute;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+
+header {
+  height: 675px;
+  border-bottom: 3px solid #099dc6;
+  overflow: hidden;
+
+  nav {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: #2d2d30;
+    border-bottom: 3px solid #099dc6;
+
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      height: 75px;
+      width: 70%;
+      margin: 0 auto;
+      justify-content: space-between;
+
+      .home {
+        padding: 0;
+      }
+
+      a {
+        height: 75px;
+        line-height:75px;
+        text-decoration: none;
+        padding: 0 20px 0 20px;
+        border-bottom: 3px solid transparent;
+        transition:1s all ease;
+        color: #ffffff;
+
+        &:hover{
+          background-color: #1f1f21;
+          border-bottom: 3px solid #ffffff;
+          transition: 1s all ease;
+        }
+      }
+
+      img {
+        height: 25px;
+        padding: 25px 0 25px;
+        border-style: none;
+      }
+
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    line-height: 75px;
+    list-style-type: none;
+
+    #active {
+
+      a{
+        i{
+          color:#099dc6;
+        }
+      }
+    }
+
+    li {
+      display:flex;
+      flex-direction:row;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: #ffffff;
+
+      .signout{
+        transition:1s all ease;
+
+        &:hover{
+          color:#099dc6;
+          transition:1s all ease;
+        }
+      }
+
+      .avatar{
+        border-radius: 100%;
+        height:35px;
+        padding:20px 0 20px;
+      }
+
+      i {
+        padding-right: 7px;
+        -webkit-transition: color 500ms ease;
+        -moz-transition: color 500ms ease;
+        -ms-transition: color 500ms ease;
+        -o-transition: color 500ms ease;
+        transition: color 500ms ease;
+      }
+
+      &:hover i {
+        -webkit-transition: color 500ms ease;
+        -moz-transition: color 500ms ease;
+        -ms-transition: color 500ms ease;
+        -o-transition: color 500ms ease;
+        transition: color 500ms ease;
+        color: #099dc6;
+      }
+    }
+  }
+
+  .attention {
+
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    top: 75px;
+
+    .info {
+      z-index: 3;
+      width: 50%;
+      height: 50%;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+
+      p {
+        color: #ffffff;
+        font-size: 55px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+
+      div {
+        text-align: center;
+      }
+
+      a {
+        padding: 13px 35px 13px 35px;
+        background-color: #099dc6;
+        margin: 10px;
+        text-transform: uppercase;
+        color: #ffffff;
+        border-radius: 4px;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+      }
+
+    }
+
+    .video {
+      height: auto;
+      vertical-align: middle;
+      width: 100%;
+      z-index: 1;
+      position: absolute;
+      top: -300px;
+    }
+  }
+
+}
+
+main {
+  background-color: #2d2d30;
+
+  article:first-child {
+    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+
+    h1 {
+      color: #ffffff;
+      margin: 0;
+      padding: 50px 0 5px 0;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    h2 {
+      color: #ffffff;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 100;
+      padding-bottom: 50px;
+    }
+
+    section {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      justify-content: space-between;
+      margin: 0 auto;
+
+      h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        word-spacing:2px;
+        padding: 0 20px 0 20px;
+        color: #ffffff;
+        margin: 0;
+      }
+
+    }
+  }
+
+  article:nth-child(2){
+    height:500px;
+    background-image:url("https://steamuserimages-a.akamaihd.net/ugc/537391966973874631/478BD51E189C4693EA5A3861F844409B3758D76D/?interpolation=lanczos-none&output-format=jpeg&output-quality=95&fit=inside|1024:576&composite-to%3D%2A%2C%2A%7C1024%3A576&background-color=black");
+    background-size: cover;
+    background-position: 0px -290px;
+    position:relative;
+
+    section{
+      width: 70%;
+      margin:0 auto;
+      overflow:hidden;
+      position:relative;
+      z-index:5;
+
+      div{
+        margin:0 auto;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+
+        img{
+          height:150px;
+          cursor:pointer;
+        }
+      }
+
+      h4{
+        color: #ffffff;
+        margin: 0;
+        padding: 50px 0 50px 0;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 5px #000000;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 100;
+      }
+    }
+
+    h1 {
+      color: #ffffff;
+      margin: 0;
+      padding: 50px 0 50px 0;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      text-align: center;
+      font-weight: 700;
+    }
+  }
+
+  article:nth-child(3){
+    background-color:#1f1f21;
+
+    section{
+      width: 50%;
+      margin:0 auto;
+    }
+
+    h1 {
+      color: #ffffff;
+      margin: 0;
+      padding: 50px 0 50px 0;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    h2{
+      color: #099dc6;
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 700;
+      padding:10px;
+    }
+
+    h3{
+      color: #ffffff;
+      margin: 0;
+      padding:10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      font-weight: 100;
+    }
+
+    h3:last-child{
+      padding-bottom:100px;
+    }
+  }
+
+  article:nth-child(4){
+    background-image:url("https://bc-gb.com/wp-content/uploads/2016/10/infernew.jpg");
+    background-size: cover;
+    background-position: 0px -290px;
+    position:relative;
+
+    section{
+      width:50%;
+      margin:0 auto;
+      display:flex;
+      position:relative;
+      z-index:5;
+      flex-direction:column;
+
+      h1 {
+        color: #ffffff;
+        margin: 0;
+        padding: 50px 0 0 0;
+        text-shadow: 0 3px 10px #000000;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 45px;
+        text-align: center;
+        font-weight: 700;
+      }
+
+      div:nth-child(2){
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+
+
+        input[type="text"]{
+          width:100%;
+          box-shadow: 0 1px 6px 0 #000000;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+          border-radius: 4px;
+
+          border-color: rgba(255, 255, 255, 0);
+          font-weight: 100;
+          margin:70px 20px 20px 20px;
+          padding:10px;
+        }
+
+        input[type="email"]{
+          width:100%;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+          box-shadow: 0 1px 6px 0 #000000;
+          border-radius: 4px;
+
+          border-color: rgba(255, 255, 255, 0);
+          font-weight: 100;
+          margin:70px 20px 20px 20px;
+          padding:10px;
+        }
+      }
+
+      div:last-child {
+        button {
+          padding: 10px;
+          width: calc(100% - 40px);
+          border-radius: 4px;
+          border-color: rgba(255, 255, 255, 0);
+          margin:20px 20px 100px 20px;
+        }
+
+
+        textarea{
+          font-family: 'Montserrat', sans-serif;
+          font-size: 15px;
+          font-weight: 100;
+          box-shadow: 0 1px 6px 0 #000000;
+          padding: 10px;
+          border-radius: 4px;
+          border-color: rgba(255, 255, 255, 0);
+          width: calc(100% - 60px);
+          margin: 20px;
+        }
+      }
+
+      }
+      }
+
+}
+
+footer {
+  background-color: #1f1f21;
+  padding: 50px 0 100px 0;
+
+  section {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    div {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding-bottom: 25px;
+        border-bottom: 2px solid #ffffff;
+      }
+
+      a {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px;
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+
+        i {
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
+
+body {
+  background-color: $main-color;
+}

@@ -1,0 +1,13 @@
+RewriteEngine On    # Turn on the rewriting engine
+RewriteRule    ^blog/update-([0-9]+)/?$    update.php?blog_id=$1    [NC,L]    # Handle product requests
+RewriteRule    ^blog/?$    blog.php    [NC,L]
+RewriteRule    ^home/?$    index.php    [NC,L]
+RewriteRule    ^account?$    account.php    [NC,L]
+RewriteRule    ^forum/?$    forum.php    [NC,L]
+RewriteRule    ^forum/home?$    forumhome.php    [NC,L]
+RewriteRule    ^de_cache?$    /maps/decache.php    [NC,L]
+RewriteRule    ^de_overpass?$    /maps/deoverpass.php    [NC,L]
+RewriteRule    ^de_cbble?$    /maps/decbble.php    [NC,L]
+RewriteRule    ^de_dust2?$    /maps/dedust2.php    [NC,L]
+RewriteRule    ^de_inferno?$    /maps/deinferno.php    [NC,L]
+RewriteRule    ^de_mirage?$    /maps/demirage.php    [NC,L]

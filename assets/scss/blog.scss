@@ -1,0 +1,90 @@
+$main-color: #2d2d30;
+
+@font-face {
+  font-family: 'gothic';
+  src: url('../fonts/leaguegothic-regular-webfont.eot');
+  src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+  url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+  url('../fonts/leaguegothic-regular-webfont.svg#webfont') format('svg');
+}
+
+header {
+  height: auto;
+}
+
+main {
+  padding-top: 75px;
+
+  article:first-child {
+    height: auto;
+    width: 60%;
+
+    div {
+      position: relative;
+      background-size: cover;
+      background-position: 0 -100px;
+      width: 100%;
+      margin: 0 0 50px 0;
+      transition: all 1s ease;
+
+      &:hover {
+        transition: all 1s ease;
+        background-position: 75% 35%;
+      }
+
+      a {
+        text-decoration: none;
+
+      }
+
+      h1 {
+        text-shadow: 0px 2px 8px #000000;
+        font-size: 30px;
+      }
+
+      h2 {
+        text-shadow: 0px 2px 8px #000000;
+      }
+    }
+
+    .blog {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      div:not(:first-child) {
+        width: calc(50% - 20px);
+      }
+
+      div:nth-child(even) {
+        background-position: 0 0;
+        margin:20px 0 20px 0;
+
+        &:hover {
+          transition: all 1s ease;
+          background-position: 75% 35%;
+        }
+      }
+
+      div:nth-child(odd) {
+        background-position: 0 0;
+        position: relative;
+        margin:20px 0 20px 0;
+        &:hover {
+          transition: all 1s ease;
+          background-position: 75% 35%;
+        }
+      }
+
+      div:first-child{
+        width:100%;
+        margin:0 0 20px 0;
+        background-position:40% 40%;
+      }
+
+    }
+  }
+}

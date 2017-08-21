@@ -1,0 +1,82 @@
+$main-color: #2d2d30;
+
+@font-face {
+  font-family: 'gothic';
+  src: url('../fonts/leaguegothic-regular-webfont.eot');
+  src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+  url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+  url('../fonts/leaguegothic-regular-webfont.svg#webfont') format('svg');
+}
+
+header {
+  height: auto;
+}
+
+main {
+  padding-top: 75px;
+
+  article:first-child {
+    height: auto;
+    width: 70%;
+
+    section {
+      width: 100%;
+
+      .controls {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: space-around;
+
+        button{
+          height: 100px;
+          width: 100px;
+          border:none;
+          border-bottom: 3px solid #099dc6;
+          border-top: 3px solid #099dc6;
+          background-color: #1f1f21;
+          border-radius: 5px;
+          padding: 20px;
+        }
+      }
+      }
+      #i {
+        flex: 5;
+      }
+      div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 75px;
+        justify-content: space-around;
+
+        img {
+          background-color: #1f1f21;
+          border-radius: 5px;
+          padding: 20px;
+          border-bottom: 3px solid rgba(255, 255, 255, 0);
+          border-top: 3px solid rgba(255, 255, 255, 0);
+          cursor: pointer;
+          height: 100px;
+          transition: all 1s ease;
+
+          &:hover {
+            border-bottom: 3px solid #099dc6;
+            transition: all 1s ease;
+            border-top: 3px solid #099dc6;
+          }
+        }
+
+        .active {
+          border-bottom: 3px solid #099dc6;
+          border-top: 3px solid #099dc6;
+        }
+
+        #map {
+          height: 550px;
+          width: 100%;
+        }
+      }
+    }
+  }
