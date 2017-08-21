@@ -161,7 +161,7 @@ require('steamauth/steamauth.php');
             <a href="#">First Opening</a>
             <a href="#">Hello to everyone</a>
             <a href="#">Testing posts</a>
-            <a href="#">csgo first tactics vid</a>
+            <a href="#">csgo first tactics video</a>
         </div>
         <div>
             <h2>Maps</h2>
