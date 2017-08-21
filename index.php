@@ -160,7 +160,7 @@ require('steamauth/steamauth.php');
             <h2>Recent Posts</h2>
             <a href="#">First Opening</a>
             <a href="#">Hello to everyone</a>
-            <a href="#">Testing posts</a>
+            <a href="#">Testing news</a>
             <a href="#">csgo first tactics video</a>
         </div>
         <div>
