@@ -20,7 +20,7 @@
             `'-.   .-'`
                 \ /
 */
-
+                
 define('DS', DIRECTORY_SEPARATOR);
 define('ENV', getenv('APP_ENV'));
 define('VERSION', '0.12.3');
