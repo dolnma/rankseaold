@@ -10,9 +10,9 @@ Thumbs.db
 .phpintel/
 
 # generated config
-/anchor/config/app.php
-/anchor/config/db.php
-/anchor/config/session.php
+#/anchor/config/app.php
+#/anchor/config/db.php
+#/anchor/config/session.php
 
 # user mod_rewrite
 /.htaccess
