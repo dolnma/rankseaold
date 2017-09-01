@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbe12676f25573e3d28e67785aae6ba16
+class ComposerStaticInit663763de37e71fc778861b078cc78f84
 {
     public static $files = array (
         '7c9b72b4e40cc7adcca6fd17b1bf4c8d' => __DIR__ . '/..' . '/indigophp/hash-compat/src/hash_equals.php',
@@ -32,7 +32,7 @@ class ComposerStaticInitbe12676f25573e3d28e67785aae6ba16
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixesPsr0 = ComposerStaticInitbe12676f25573e3d28e67785aae6ba16::$prefixesPsr0;
+            $loader->prefixesPsr0 = ComposerStaticInit663763de37e71fc778861b078cc78f84::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
