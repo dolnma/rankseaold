@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html >
+
+<!-- Mirrored from operationl2p.com/maps/de_dust2?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 30 Apr 2017 21:49:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:800,400' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link async="async" data-turbolinks-track="true" href="../assets/bootsy/bootstrap-submenu7e76.css?body=1" media="all" rel="stylesheet" />
+<link async="async" data-turbolinks-track="true" href="../assets/bootsy/bootstrap-wysihtml57e76.css?body=1" media="all" rel="stylesheet" />
+<link async="async" data-turbolinks-track="true" href="../assets/bootsy/bootsy7e76.css?body=1" media="all" rel="stylesheet" />
+<link async="async" data-turbolinks-track="true" href="../assets/application7e76.css?body=1" media="all" rel="stylesheet" />
+
+
+	
+	<title>
+			de_dust2 -
+			CS:GO Grenade Maps -
+		OperationL2P
+	</title>
+	
+	<meta name = "description" content="de_dust2 smokes, flashes, and molotovs - Counter-Strike: Global Offensive Grenade Maps at OperationL2P">
+	<meta content="authenticity_token" name="csrf-param" />
+<meta content="bmkXxy1Ss39t00fuXMEvZ2Tu58IT/go2jwhYp8B57/c=" name="csrf-token" />
+	<script data-turbolinks-track="true" src="../assets/jquery7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/jquery.turbolinks7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/jquery_ujs7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/turbolinks7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/jquery.iframe-transport7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/jquery.remotipart7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/wysihtml57e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/bootstrap-wysihtml57e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/bootsy7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/bootstrap.file-input7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/init7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/editor_options7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy/translations7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootsy7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/bootstrap7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/articles7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/comments7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/dashboard7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/grenades7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/guides7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/infos7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/maps7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/posts7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/welcome7e76.js?body=1"></script>
+<script data-turbolinks-track="true" src="../assets/application7e76.js?body=1"></script>
+</head>
+
+<body data-no-turbolink class="cbp-spmenu-push">
+
+	<nav class="test">
+	<div class = "smenu-item active" tooltip="Grenade Maps">
+		<a href="../index.html"><img alt="Smokeicon" class="img-icon" src="../assets/icons/smokeicon.png" /></a>
+	</div>
+
+	<div class = "smenu-item " tooltip="Crosshair Generator">
+		<a href="../crosshairgenerator.html"><img alt="Crosshairicon" class="img-icon" src="../assets/icons/crosshairicon.png" /></a>
+		
+	</div>
+
+	<div class = "smenu-item " tooltip="Practice Servers">
+		<a href="../servers.html"><span class = "glyphicon glyphicon-glyphicon glyphicon-list glyph-mods"></span></a></a></li>
+	</div>
+
+	<div class = "smenu-divider"></div>
+
+	<div class = "smenu-item" tooltip="Account" style="bottom:25px; position:fixed;">
+			<div class = "smenu-expandable" tooltip="Sign up">
+				<a data-toggle="modal" href="#sign_up"><span class = "glyphicon glyphicon-pencil glyph-mods"></span></a>
+			</div>
+			<div class = "smenu-expandable" tooltip="Sign in">
+				<a data-toggle="modal" href="#sign_in"><span class = "glyphicon glyphicon-log-in glyph-mods"></span></a>
+			</div>
+		
+		<a href = "#"><span class="glyphicon glyphicon-user glyph-mods" style="cursor:default;"></span></a>
+
+	</div>
+	
+
+</nav>
+
+	<div class = "mainContainer">
+		
+<style type="text/css">
+.bigContainer { width: 1170px !important; }
+.nade_white{stroke:#FFFFFF;fill:#FFFFFF;stroke-miterlimit:10;stroke-width:0;}
+.nade_black{fill:#000000;stroke:#000000;stroke-miterlimit:10;}
+.line_dot{stroke:#FFFFFF;fill:#FFFFFF;stroke-width:3}
+.nade_gray{fill:#CDCDCD;}
+.grenade {
+	display:block;
+	pointer-events:all;
+	cursor:pointer;
+	transition:.5s;
+}
+.js_grenade_hover{
+	cursor:pointer;
+	stroke:rgb(255,0,0);
+	fill:rgb(255,0,0);
+}
+.red{
+	color:red;
+}
+</style>
+
+<div class="panel panel-default" style="width:auto;max-height:90vh;overflow-y:auto;overflow-x:hidden;position:fixed;margin-bottom:0px;bottom:0px;right:0px;z-index:11;width:250px;">
+	<div class="panel-heading noMargin noPad">
+		<span id = "hideNadeList" class="expander glyphicon glyphicon-chevron-down" ></span>
+	</div>
+
+
+
+
+
+	<div id = "grenadeList" class="panel-body panelback">
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "66" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "66" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg66" class="videoLink popup-youtube" href="http://youtube.com/watch?v=mAslHbsyJpA" style="white-space: nowrap;">
+						Short - CT Ramp
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "68" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "68" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg68" class="videoLink popup-youtube" href="http://youtube.com/watch?v=42x0xtQeIoQ" style="white-space: nowrap;">
+						CT Ramp -&gt; Long
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "67" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "67" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg67" class="videoLink popup-youtube" href="http://youtube.com/watch?v=GzyBlkO-4nY" style="white-space: nowrap;">
+						Long -&gt; Cross
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "87" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "87" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg87" class="videoLink popup-youtube" href="http://youtube.com/watch?v=hRmPjtKr06c" style="white-space: nowrap;">
+						Catwalk to Cat
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "89" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "89" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg89" class="videoLink popup-youtube" href="http://youtube.com/watch?v=s1ndFi4XZ3g" style="white-space: nowrap;">
+						CT Mid to B
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "74" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "74" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg74" class="videoLink popup-youtube" href="http://youtube.com/watch?v=gKpKpgN0FW4" style="white-space: nowrap;">
+						T from long
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "75" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "75" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg75" class="videoLink popup-youtube" href="http://youtube.com/watch?v=y3p_wrSFT4M" style="white-space: nowrap;">
+						CAT to CT Spawn
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "84" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "84" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg84" class="videoLink popup-youtube" href="http://youtube.com/watch?v=rRGEWRuLGGQ" style="white-space: nowrap;">
+						Long A to Ramp
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "88" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "88" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg88" class="videoLink popup-youtube" href="http://youtube.com/watch?v=ZbtwHXNDf7A" style="white-space: nowrap;">
+						LongDoor to Pit
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "93" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "93" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg93" class="videoLink popup-youtube" href="http://youtube.com/watch?v=5NtTPtR4j2g" style="white-space: nowrap;">
+						Cat to A
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "117" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "117" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg117" class="videoLink popup-youtube" href="http://youtube.com/watch?v=7mVyJNSgCdI" style="white-space: nowrap;">
+						BSpot-&gt;CTSpawn
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "90" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "90" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg90" class="videoLink popup-youtube" href="http://youtube.com/watch?v=5jlCJINEKLI12" style="white-space: nowrap;">
+						Tunnels to B
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "112" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "112" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg112" class="videoLink popup-youtube" href="http://youtube.com/watch?v=g26Aj-ToGqQ" style="white-space: nowrap;">
+						Car to L doors
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "128" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "128" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg128" class="videoLink popup-youtube" href="http://youtube.com/watch?v=" style="white-space: nowrap;">
+						Bigbox fire
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "148" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "148" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg148" class="videoLink popup-youtube" href="http://youtube.com/watch?v=78eO0uTT56Y" style="white-space: nowrap;">
+						Long A-&gt;Stairs
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "197" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "197" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg197" class="videoLink popup-youtube" href="http://youtube.com/watch?v=5rhAZBHrFhA" style="white-space: nowrap;">
+						Door to long
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "144" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "144" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg144" class="videoLink popup-youtube" href="http://youtube.com/watch?v=" style="white-space: nowrap;">
+						Tbase 2 A-cross
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "151" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "151" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg151" class="videoLink popup-youtube" href="http://youtube.com/watch?v=aQFt5eg7zqE" style="white-space: nowrap;">
+						B to CT-Spawn
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "152" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "152" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg152" class="videoLink popup-youtube" href="http://youtube.com/watch?v=vB7EteZm-aI" style="white-space: nowrap;">
+						long A smoke
+					</a>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-xs-4" style="font-size:12px;padding-right:0;">
+						<span data-id = "153" class="upvote glyphicon glyphicon-thumbs-up "></span>
+						0
+						<span data-id = "153" class="downvote glyphicon glyphicon-thumbs-down "></span>
+				</div>
+					<div class = "col-xs-8">
+					<a id = "lg153" class="videoLink popup-youtube" href="http://youtube.com/watch?v=9hmJKZRLe6g" style="white-space: nowrap;">
+						A plant smoke
+					</a>
+				</div>
+			</div>
+		<div style="text-align:center">
+			  <nav class="pagination" style="margin:0">
+    
+        <span class="page current">
+  1
+</span>
+
+        <span class="page">
+  <a href="de_dust24658.html?page=2" rel="next">2</a>
+</span>
+
+    <span class="last">
+  <a href="de_dust24658.html?page=2">Last &raquo;</a>
+</span>
+
+  </nav>
+
+		</div>
+	</div> 
+</div>
+<div class = "container" style="text-align:center">
+	<div class = "row">
+		<div class = "col-xs-12 divider" style="text-align:left">
+			<h3 class = "subheading">de_dust2 Grenade Map</h3>
+		</div>
+	</div>
+	<div style="margin:0;padding-top:0;padding-bottom:0; width:90%; margin: 0 auto;">
+		<ul id="navbar" class="nav nav-tabs nav-justified nav-nade">
+		    <li  ><a href="de_dust2.html">Basic Grenades</a></li>
+		    <li class=active ><a href="de_dust22679.html?page=1">Community Grenades</a></li>
+		    <li  ><a href="de_dust202e4.html?page=0">My Grenades</a></li>
+		</ul>
+	</div>
+
+	<div style = "width:90%;display:block;margin:auto;">
+		<svg id = "svgFrame" viewBox = "0 0 1024 1024" style="cursor:default">
+			<!-- smoke -->
+			<defs>
+				<g id = "smokePaths">
+					<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+					l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+					c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+					<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+						S44,78.3,44,78.3v-2.7V74.6z"/>
+				</g>
+				<g id = "flashPaths">
+					<polygon class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+					<path class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+						L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+						l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+						H60.5"/>
+				</g>
+				<g id = "firePaths">
+					<path class="nade_white" d="M39.5,8.3c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1v-1.4L32,77.4V34
+						l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V25.4h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3c0,0-2.3-1.1-2.3-2.5H42.7
+						C42.7,11.3,40.7,10.7,39.5,8.3z"/>
+					<path class="nade_black" d="M37.8,68.5c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+						s-12.6-2.3-12.6-2.3v-2.7V68.5z"/>
+					<path class="nade_black" d="M48.2,31.5c0,0,2.9,7.1-2.1,11.7s-11.1,17.5,0,22c0,0,0-4.4,2.9-6.8s2.7-4.6,2.4-8.5
+						c-0.1,0.3,6.6,4.8,1.8,14.6c0,0.3,7.4,0,7.4-14.6S48.2,31.5,48.2,31.5z"/>
+				</g>
+			</defs>
+			<image style="pointer-events:none" height="1024" width="1024" y="0" x="0" preserveAspectRatio="none" xlink:href="../assets/maps/de_dust2.jpg"></image>
+			
+
+				<g id = "g153" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=9hmJKZRLe6g" href="http://youtube.com/watch?v=9hmJKZRLe6g" style="display:inline-block">
+						<circle cx="627" cy="362" r="5" class="line_dot"/>
+						<line x1="627" y1="362" x2="811" y2="202" class="line_dot"/>
+
+							<g transform="translate(784,167) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g152" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=vB7EteZm-aI" href="http://youtube.com/watch?v=vB7EteZm-aI" style="display:inline-block">
+						<circle cx="593" cy="805" r="5" class="line_dot"/>
+						<line x1="593" y1="805" x2="844" y2="504" class="line_dot"/>
+
+							<g transform="translate(817,469) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g151" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=aQFt5eg7zqE" href="http://youtube.com/watch?v=aQFt5eg7zqE" style="display:inline-block">
+						<circle cx="137" cy="239" r="5" class="line_dot"/>
+						<line x1="137" y1="239" x2="498" y2="272" class="line_dot"/>
+
+							<g transform="translate(471,237) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g144" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=" href="http://youtube.com/watch?v=" style="display:inline-block">
+						<circle cx="606" cy="795" r="5" class="line_dot"/>
+						<line x1="606" y1="795" x2="835" y2="276" class="line_dot"/>
+
+							<g transform="translate(808,241) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g197" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=5rhAZBHrFhA" href="http://youtube.com/watch?v=5rhAZBHrFhA" style="display:inline-block">
+						<circle cx="708" cy="703" r="5" class="line_dot"/>
+						<line x1="708" y1="703" x2="787" y2="539" class="line_dot"/>
+
+
+							<polygon transform="translate(760,504) scale(.5)" class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+							<path transform="translate(760,504) scale(.5)" class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+								L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+								l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+								H60.5"/>
+
+					</a>
+				</g>
+
+				<g id = "g148" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=78eO0uTT56Y" href="http://youtube.com/watch?v=78eO0uTT56Y" style="display:inline-block">
+						<circle cx="862" cy="369" r="5" class="line_dot"/>
+						<line x1="862" y1="369" x2="641" y2="312" class="line_dot"/>
+
+							<g transform="translate(614,277) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g128" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=" href="http://youtube.com/watch?v=" style="display:inline-block">
+						<circle cx="350" cy="294" r="5" class="line_dot"/>
+						<line x1="350" y1="294" x2="115" y2="213" class="line_dot"/>
+
+
+
+							<path transform="translate(88,186) scale(.5)" class="nade_white" d="M39.5,8.3c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1v-1.4L32,77.4V34
+								l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V25.4h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3c0,0-2.3-1.1-2.3-2.5H42.7
+								C42.7,11.3,40.7,10.7,39.5,8.3z"/>
+							<path transform="translate(88,186) scale(.5)" class="nade_black" d="M37.8,68.5c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+								s-12.6-2.3-12.6-2.3v-2.7V68.5z"/>
+							<path transform="translate(88,186) scale(.5)" class="nade_black" d="M48.2,31.5c0,0,2.9,7.1-2.1,11.7s-11.1,17.5,0,22c0,0,0-4.4,2.9-6.8s2.7-4.6,2.4-8.5
+								c-0.1,0.3,6.6,4.8,1.8,14.6c0,0.3,7.4,0,7.4-14.6S48.2,31.5,48.2,31.5z"/>
+					</a>
+				</g>
+
+				<g id = "g112" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=g26Aj-ToGqQ" href="http://youtube.com/watch?v=g26Aj-ToGqQ" style="display:inline-block">
+						<circle cx="933" cy="302" r="5" class="line_dot"/>
+						<line x1="933" y1="302" x2="704" y2="607" class="line_dot"/>
+
+							<g transform="translate(677,572) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g90" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=5jlCJINEKLI12" href="http://youtube.com/watch?v=5jlCJINEKLI12" style="display:inline-block">
+						<circle cx="143" cy="491" r="5" class="line_dot"/>
+						<line x1="143" y1="491" x2="108" y2="458" class="line_dot"/>
+
+
+							<polygon transform="translate(81,423) scale(.5)" class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+							<path transform="translate(81,423) scale(.5)" class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+								L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+								l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+								H60.5"/>
+
+					</a>
+				</g>
+
+				<g id = "g117" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=7mVyJNSgCdI" href="http://youtube.com/watch?v=7mVyJNSgCdI" style="display:inline-block">
+						<circle cx="201" cy="137" r="5" class="line_dot"/>
+						<line x1="201" y1="137" x2="520" y2="282" class="line_dot"/>
+
+							<g transform="translate(493,247) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g93" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=5NtTPtR4j2g" href="http://youtube.com/watch?v=5NtTPtR4j2g" style="display:inline-block">
+						<circle cx="617" cy="400" r="5" class="line_dot"/>
+						<line x1="617" y1="400" x2="787" y2="162" class="line_dot"/>
+
+							<g transform="translate(760,127) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g88" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=ZbtwHXNDf7A" href="http://youtube.com/watch?v=ZbtwHXNDf7A" style="display:inline-block">
+						<circle cx="699" cy="615" r="5" class="line_dot"/>
+						<line x1="699" y1="615" x2="829" y2="618" class="line_dot"/>
+
+							<g transform="translate(802,583) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g84" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=rRGEWRuLGGQ" href="http://youtube.com/watch?v=rRGEWRuLGGQ" style="display:inline-block">
+						<circle cx="0" cy="0" r="5" class="line_dot"/>
+						<line x1="0" y1="0" x2="0" y2="0" class="line_dot"/>
+
+
+							<polygon transform="translate(-27,-35) scale(.5)" class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+							<path transform="translate(-27,-35) scale(.5)" class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+								L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+								l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+								H60.5"/>
+
+					</a>
+				</g>
+
+				<g id = "g75" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=y3p_wrSFT4M" href="http://youtube.com/watch?v=y3p_wrSFT4M" style="display:inline-block">
+						<circle cx="611" cy="451" r="5" class="line_dot"/>
+						<line x1="611" y1="451" x2="685" y2="270" class="line_dot"/>
+
+							<g transform="translate(658,235) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g74" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=gKpKpgN0FW4" href="http://youtube.com/watch?v=gKpKpgN0FW4" style="display:inline-block">
+						<circle cx="806" cy="495" r="5" class="line_dot"/>
+						<line x1="806" y1="495" x2="617" y2="868" class="line_dot"/>
+
+							<g transform="translate(590,833) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g89" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=s1ndFi4XZ3g" href="http://youtube.com/watch?v=s1ndFi4XZ3g" style="display:inline-block">
+						<circle cx="282" cy="245" r="5" class="line_dot"/>
+						<line x1="282" y1="245" x2="243" y2="163" class="line_dot"/>
+
+
+							<polygon transform="translate(216,128) scale(.5)" class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+							<path transform="translate(216,128) scale(.5)" class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+								L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+								l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+								H60.5"/>
+
+					</a>
+				</g>
+
+				<g id = "g87" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=hRmPjtKr06c" href="http://youtube.com/watch?v=hRmPjtKr06c" style="display:inline-block">
+						<circle cx="517" cy="509" r="5" class="line_dot"/>
+						<line x1="517" y1="509" x2="626" y2="423" class="line_dot"/>
+
+
+							<polygon transform="translate(599,388) scale(.5)" class="nade_gray" points="33.3,92.3 60,70.7 90,87 81.3,63.7 103.5,54.7 81,46.5 95.8,27 71.5,30.5 68.4,7 53.5,26.5 31.5,11.7 39.3,37.3 15.3,39.7 32.5,52.8 15.3,67.2 39.7,69.3 	"/>
+							<path transform="translate(599,388) scale(.5)" class="nade_white" d="M61.1,109.9H50.4l-1.3-1.2v-4.1l3.2-5.5v-4.9l0.8-0.3v-5.3L52,87.7v-5.3l1-0.7v-5.1L51.9,76v-4.7l0.9-0.7v-5.1l-1-1V60
+								L49,57.2v-5h-1.6l-2.9,2.3v33l4.2,2.4l0.3,1.8L47.4,92l-5.2-2.8V52.8l10.3-17.9h13.9c0,0,2.5-0.1,2.5,2.6c0,2.7-2.6,2.6-2.6,2.6
+								l0.1,4.9l2.5,2.8h3.9v9.4L69.7,60v4.6l-1,1v5.1l0.9,0.7V76l-1.1,0.8v5.1l1,0.7v5.3l-1.2,0.8v5.3l0.8,0.3v4.9l3.2,5.5v4.1l-1.3,1.2
+								H60.5"/>
+
+					</a>
+				</g>
+
+				<g id = "g67" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=GzyBlkO-4nY" href="http://youtube.com/watch?v=GzyBlkO-4nY" style="display:inline-block">
+						<circle cx="761" cy="589" r="5" class="line_dot"/>
+						<line x1="761" y1="589" x2="831" y2="275" class="line_dot"/>
+
+							<g transform="translate(804,240) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g68" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=42x0xtQeIoQ" href="http://youtube.com/watch?v=42x0xtQeIoQ" style="display:inline-block">
+						<circle cx="728" cy="225" r="5" class="line_dot"/>
+						<line x1="728" y1="225" x2="844" y2="491" class="line_dot"/>
+
+							<g transform="translate(817,456) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+
+				<g id = "g66" class="grenade">
+					<a  class = "grenadeLink popup-youtube" xlink:href="http://youtube.com/watch?v=mAslHbsyJpA" href="http://youtube.com/watch?v=mAslHbsyJpA" style="display:inline-block">
+						<circle cx="648" cy="363" r="5" class="line_dot"/>
+						<line x1="648" y1="363" x2="678" y2="263" class="line_dot"/>
+
+							<g transform="translate(651,228) scale(.5)">
+	  							<path class="nade_white" d="M45.7,14.4c0,0-3.8,13.4-10.4,24.6v46.4c0,0,0.4,1.1,1.8,1.1c1.4,0,1.9-1.1,1.9-1.1V84
+								l-0.8-0.5V40.1l3.5-4.9v56c0,0,5.7,4.4,14.9,4.4s15.3-4.2,15.3-4.2V31.5h-6.9c0,0-2.1-0.1-2.1-5.1s3.2-4.2,3.2-4.2v-2.3
+								c0,0-2.3-1.1-2.3-2.5H48.9C48.9,17.4,46.9,16.8,45.7,14.4z"/>
+								<path class="nade_black" d="M44,74.6c0,0,9.9,1.7,12.8,1.7c2.9,0,12.8-1.7,12.8-1.7v4.3c0,0-5.4,1.7-13,1.7
+									S44,78.3,44,78.3v-2.7V74.6z"/>
+							</g>
+
+
+					</a>
+				</g>
+		</svg>
+	</div>
+		<script src="../assets/grenademaps/magnific.js"></script>
+		<link href="../assets/magnific7e76.css?body=1" media="screen" rel="stylesheet" />
+		<script>
+//<![CDATA[
+
+			var loggedIn = "false";
+			var mapid = 1;
+
+//]]>
+</script>		<script src="../assets/grenademaps/nademap.js"></script>
+		<script>
+		</script>
+</div>
+	</div>
+	
+<!-- Modal -->
+<div class="modal fade" id="sign_up" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Sign up</h4>
+      </div>
+      <div class="modal-body">
+                      <form accept-charset="UTF-8" action="http://operationl2p.com/users" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bmkXxy1Ss39t00fuXMEvZ2Tu58IT/go2jwhYp8B57/c=" /></div>
+
+                
+
+                <div><label for="user_username">Username</label><br />
+
+                    <input autofocus="autofocus" id="user_username" name="user[username]" type="text" />
+                </div>
+
+                <div><label for="user_password">Password</label> (8 character minimum)<br />
+
+                    <input id="user_password" name="user[password]" type="password" />
+                </div>
+
+                <div><label for="user_password_confirmation">Password confirmation</label><br />
+
+                    <input id="user_password_confirmation" name="user[password_confirmation]" type="password" />
+                </div>
+
+
+                <div class = "row">
+                    <div class = "col-xs-6" style="text-align:right">
+                <p><div><input class="btn btn-small btn-success" name="commit" type="submit" value="Sign up" />    
+                </div></p>
+                    </div>
+                    <div class = "col-xs-6" style="text-align:left">
+                <p><div><a href="#" class="btn btn-small btn-danger" data-dismiss="modal">Cancel</a></div></p>
+            </div>
+                </div>
+            </div>
+
+</form>        
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+	
+<div class="modal fade" id="sign_in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Sign in</h4>
+      </div>
+
+	<div class="modal-body">
+
+		<form accept-charset="UTF-8" action="http://operationl2p.com/users/sign_in" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="bmkXxy1Ss39t00fuXMEvZ2Tu58IT/go2jwhYp8B57/c=" /></div>
+
+		<div><label for="user_username">Username</label><br />
+
+			<input autofocus="autofocus" id="user_username" name="user[username]" type="text" />
+		</div>
+
+		<div><label for="user_password">Password</label><br />
+
+			<input id="user_password" name="user[password]" type="password" />
+		</div>
+
+
+		<div><input name="user[remember_me]" type="hidden" value="0" /><input id="user_remember_me" name="user[remember_me]" type="checkbox" value="1" /> <label for="user_remember_me">Remember me</label>
+		</div>
+
+		<div class = "row">
+			<div class = "col-xs-6" style="text-align:right">
+				<p><div><input class="btn btn-small btn-success" name="commit" type="submit" value="Sign in" />    
+				</div></p>
+			</div>
+			<div class = "col-xs-6" style="text-align:left">
+				<p><div><a href="#" class="btn btn-small btn-danger" data-dismiss="modal">Cancel</a>
+				</div></p>
+
+
+</form>
+			</div>
+
+		</div>
+	</div>
+        
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div style="position:relative;bottom:0;width:100%;text-align:center;">
+<div class = "container">
+<div class = "row" style="">
+	<div class = "col-md-4 rightBorder footerThing">
+		<h6>Knowing positions for smokes and flashes is a huge benefit.  Learn them easily with our grenade maps</h6>
+		<div class = "col-xs-12 col-md-6">
+			<a href = "de_dust2.html">de_dust2</a><br>
+			<a href = "de_inferno.html">de_inferno</a><br>
+			<a href = "de_nuke.html">de_nuke</a><br>
+			<a href = "de_nuke.html">de_overpass</a><br>
+		</div>
+		<div class = "col-xs-12 col-md-6">
+			<a href = "de_mirage.html">de_mirage</a><br>
+			<a href = "de_cache.html">de_cache</a><br>
+			<a href = "de_season.html">de_season</a><br>
+		</div>
+	</div>
+	<div class = "col-xs-12 col-md-4 leftBorder footerThing">
+		<h5>OperationL2P & Counter Strike: Global Offensive</h5>
+		
+		<br>
+		OperationL2P is a strategy guide website dedicated to helping players get better at playing CS:GO.  We provide tools such as our innovative <a href = "de_dust2.html">grenade maps</a> to make learning the game that much simpler.
+	</div>
+	<div class = "col-xs-12 col-md-4 leftBorder rightBorder footerThing">
+		CS:GO is a team-based first person shooter, based on the decade old franchise of Counter Strike.  Players take roles on the opposing teams, terrorists and counter-terrorists.  In order to win a match, players must either eliminate the entirety of the enemy team, or achieve the map's objectives.  Players can use earned currency in past rounds in order to purchase weapons and equipment
+	</div>
+
+</div>
+</div>
+</div>
+	<!-- Piwik -->
+	<script type="text/javascript">
+	  var _paq = _paq || [];
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="http://server2.operationl2p.com/piwik/";
+	    _paq.push(['setTrackerUrl', u+'piwik.php']);
+	    _paq.push(['setSiteId', 1]);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	<noscript><p><img src="http://server2.operationl2p.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	<!-- End Piwik Code -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','../../www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-9177997-10', 'auto');
+	ga('send', 'pageview');
+	</script>
+</body>
+
+<!-- Mirrored from operationl2p.com/maps/de_dust2?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 30 Apr 2017 21:49:46 GMT -->
+</html>
