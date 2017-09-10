@@ -1,0 +1,14 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+#AuthType Basic
+#AuthName "Password Protected Area"
+#AuthUserFile /var/www/clients/client2/web8/web/.htpasswd
+#Require valid-user
