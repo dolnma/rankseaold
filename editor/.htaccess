@@ -1,5 +1,0 @@
-# END WordPress
-AuthType Basic
-AuthName "Password Protected Area"
-AuthUserFile /var/www/clients/client2/web8/web/.htpasswd
-Require valid-user
